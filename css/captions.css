@@ -1,0 +1,137 @@
+img {
+  border-radius: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+div.caption {
+  position: relative;
+  width: 760px;
+  background-color: #fff;
+  padding: 0;
+  clear: both;
+  margin: 20px 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+div.caption > img {
+  max-width: 760px;
+  margin-bottom: -3px;
+}
+
+div.caption > p {
+  position: relative;
+  margin: 0;
+  padding: 10px;
+}
+
+div.caption.bottom > p {
+  border-top: 5px solid #c0dffd;
+}
+
+div.caption.bottom > p:before {
+  position: absolute;
+  top: -23px;
+  left: 30px;
+  content: url(../images/captions/bottom.png);
+}
+
+div.caption.bottom > img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkitborder-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-bottomright: 0;
+}
+
+div.caption.top > p {
+  border-bottom: 5px solid #c0dffd;
+}
+
+div.caption.top > p:before {
+  position: absolute;
+  bottom: -26px; 
+  left: 30px;
+  content: url(../images/captions/top.png);
+}
+
+
+div.caption.top > img {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -webkitborder-top-right-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+}
+
+div.caption.left > p {
+  border-bottom: 5px solid #c0dffd;
+}
+
+div.caption.left > p:before {
+  position: absolute;
+  bottom: -26px; 
+  left: 30px;
+  content: url(../images/captions/top.png);
+}
+
+
+div.caption.left > img {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -webkitborder-top-right-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+}
+
+div.caption.right > p {
+  border-bottom: 5px solid #c0dffd;
+}
+
+div.caption.right > p:before {
+  position: absolute;
+  bottom: -26px; 
+  left: 30px;
+  content: url(../images/captions/top.png);
+}
+
+
+div.caption.right > img {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -webkitborder-top-right-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+}
+
+div.caption.posRight {
+  float: right;
+  margin-left: 20px;
+}
+
+div.caption.posLeft {
+  float: left;
+  margin-right: 20px;
+}
+
+div.caption.small {
+  max-width: 300px;
+  clear: none;
+}
+
+div.caption.small > img {
+  max-width: inherit;
+}
+
+div.caption.small.bottom > p:before {
+  left: -5px;
+}

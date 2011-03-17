@@ -1,0 +1,15 @@
+<ul id="nav">
+  {% for link in page.links %}
+    <li><a href="{{ link.url }}" class="{% if link.label ==  page.title %} active{% endif %}">{{ link.label }}</a>
+      {% for sub_links in page.sub_links %}
+        {% if sub_links.label == link.label %}
+          <ul>
+            {% for sub_link in sub_links.links %}
+              <li><a href="{{ sub_link.url }}">{{ sub_link.label }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+    </li>
+  {% endfor %}  
+</ul>
